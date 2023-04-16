@@ -1,0 +1,429 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    z-index: 1;
+}
+header div{
+    float: left;
+    justify-content: center;
+    align-items: center;
+}
+header .logo{
+    margin-left: 100px;
+    padding: 20px;
+}
+header .nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 200px;
+}
+header .nav ul{
+    list-style: none;
+}
+header .nav ul li{
+    float: left;
+    padding-right: 40px;
+    padding-top: 10px;
+}
+header .nav ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: rgb(8, 8, 8);
+    font-weight: bold;
+}
+#color{
+    color: #7f97ff;
+}
+
+header .nav ul li a:hover{
+    color: #7f97ff;
+}
+/*section 1 start */
+.section1{
+    background-color: #f9f9ff;
+    display: flex;
+    width: 100%;
+    height: 700px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 75px;
+}
+.half2 img{
+    max-width: 100%;
+    height: auto;
+}
+.half1 .half2{
+    width: 50%;
+}
+.half1{
+    margin-left: 132px;
+    margin-bottom: 120px;
+}
+.half2{
+    padding-right: 160px;
+
+}
+.half1 h3{
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #222222;
+}
+.half1 h1{
+    font-size: 60px;
+    font-family: "Poppins",
+        sans-serif;
+        font-weight: 700;
+        line-height: 0.2em !important;
+}
+.half1 a{
+    text-decoration: none;
+    padding: 12px 25px;
+    background-color: #8393ff;
+    color: #f9f9ff;
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 15px;    
+}
+.half1 a:hover{
+    box-shadow:5px 10px 30px rgb(130, 147, 255, 0.5);
+    transition: all 0.5s ease-in 0.1s;
+    outline: none;
+}
+.half1 p{
+            width: 500px;
+            color: #777777;
+            font-family: "Poppins", sans-serif;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 1.625em;
+            position: relative;
+}
+/*section 1 end */
+/*section 2 start */
+.section2{
+    width: 100%;
+    height: 620px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.section2 div{
+    width: 40%;
+    margin: 0px auto;
+}
+.section2 img{
+    max-width: 100%;
+    height: auto;
+}
+.section2 .img{
+    padding-left: 150px;
+}
+.text2 h3{
+    font-weight: normal;
+    color: rgb(0, 0, 0, 0.7);
+    margin-bottom: 30px;
+}
+.text2 h1{
+    margin-bottom: 40px;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.2em !important;
+    color: #222222;
+}
+.text2 p{
+        margin-bottom: 30px;
+        max-width: 445px;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        color: #777777;
+        font-family: "Poppins", sans-serif;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 1.625em;
+        position: relative;
+        }
+    .text2 a{
+            text-decoration: none;
+            padding: 12px 25px;
+            background-color: #8393ff;
+            color: #f9f9ff;
+            line-height: 50px;
+            font-weight: bold;
+            font-size: 15px;
+    }
+.text2 a:hover{
+            box-shadow: 5px 10px 30px rgb(130, 147, 255, 0.5);
+            transition: all 0.5s ease-in 0.1s;
+            outline: none;
+
+}
+
+/*section 2 end */
+/*section 3 start*/
+.section3{
+    width: 100%;
+    height: 650px;
+    margin: 0px auto;
+    text-align: center;
+}
+.text h1{
+    font-size: 45px;
+    line-height: 10px;
+}
+.text p{
+    width: 670px;
+    color: rgb(0, 0, 0, 0.7);
+    margin: 0px auto;
+    
+}
+.service{
+    width: 80%;
+    margin: 0px auto;
+    padding-top: 45px;
+    
+}
+.ser1{
+    width: 100%;
+    overflow: hidden;
+    
+}
+.ser1 div{
+    width: 32%;
+    float: left;
+    padding: 5px;
+    margin: 0px auto;
+}
+.service i{
+    font-size: 50px;
+    color: rgb(0, 0, 0, 0.6);
+}
+.service h1{
+    color: rgb(0, 0, 0, 0.7);
+    font-weight: 400;
+}
+.service p{
+    color: rgb(0, 0, 0, 0.5);
+    
+}
+.ser1 div:hover{
+    background-color: rgb(143, 182, 143);
+    
+    cursor: pointer;
+}
+.ser1 div:hover p{
+    color: #f9f9ff;
+}
+.ser1 div:hover i {
+    color: #f9f9ff;
+}
+.ser1 div:hover h1 {
+    color: #f9f9ff;
+}
+/*section 3 end*/
+/*section 4 start*/
+.sec4{
+    width: 100%;
+    height: 300px;
+    background-color: #8293ff;
+}
+.sec4 div{
+    float: left;
+    width: 20%;
+    text-align: center;
+    margin: 0px auto;
+    position: relative;
+    top: 100px;
+    left: 120px;
+    color: #f9f9ff;
+    font-size: 20px;
+    line-height: 0px;
+}
+.sec4 div:hover{
+    transform: scale(2.0);
+    color: #000000;
+    
+
+}
+/*portfolio start */
+.sec5{
+    width: 100%;
+    box-sizing: border-box;
+}
+.sec5 .text5{
+    text-align: center;
+    padding: 100px 0px;
+}
+.sec5 .text5 h1{
+    font-size: 40px;
+    color: rgb(0, 0, 0, 0.8);
+
+}
+.sec5 .text5 p{
+    color: rgb(0, 0, 0, 0.5);
+    font-weight: 400;
+    margin-bottom: 30px;
+    margin: -20px;
+}
+.sec5 .productimg{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0px auto;
+}
+.sec5 .productimg div{
+    width: 340px;
+    height: 339px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.sec5 .productimg h1{
+    color: rgb(0, 0, 0, 0.7);
+    font-size: 20px;
+}
+.sec5 .productimg p{
+    color: rgb(0, 0, 0, 0.5);
+}
+.sec5 figure{
+    background: linear-gradient(40deg, #8490ff 40%, #62bdfc 100%); 
+    width: 340px;
+    height: 339px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 3%;
+}
+.sec5 .productimg figure:hover img{
+    opacity: 0.3;
+    transition: all .3s ease-in-out;
+}
+/*portfolio end */
+/*pricing start*/
+.sec6{
+    width: 100%;
+    height: 1000px;
+
+}
+.sec6 .text6{
+    text-align: center;
+    padding: 10% 0;
+}
+.sec6 .text6 h1{
+    font-size: 40px;
+    line-height: 0;
+    padding-top: 15px;
+}
+.sec6 .text6 p{
+    color: rgb(0, 0, 0, 0.7);
+}
+.sec6 .pricing{
+    width: 75%;
+    height: auto;
+    display: flex; 
+    justify-content: space-around;
+    margin: 0 auto;
+    
+        
+}
+.sec6 .price h1{
+    font-size: 50px;
+    padding-top: 8px;
+}
+
+.sec6 .price{
+    text-align: center;
+    width: 300px;
+    height: 600px;
+    background-color: rgb(249, 249, 255);
+    border: 1px solid rgb(0, 0, 0, 0.1);
+    
+}
+.sec6 .price input{
+    outline: none;
+    background-color: #8293ff;
+    color: #f9f9ff;
+    font-size: 25px;
+    padding: 6px 60px;
+    font-weight: bold;
+    border: 1px solid white;
+    cursor: pointer
+}
+.sec6 .price:hover{
+    background-color: rgb(39, 85, 39);
+    color: rgb(255, 231, 10);
+    transition: all 0.25s ease-in;
+    transform: scale(1.05);
+    border: 1px solid rgb(130, 147, 255, 0.5);
+    box-shadow: 0 8px 12px 0 rgb(0, 0, 0, 0.5);
+}
+.sec6 .price:hover input{
+    background-color: #070402;
+    color: #11f7ff;
+}
+/*pricing end*/
+/*footer start*/
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: #222222;
+    color: #f9f9ff;
+    position: absolute;
+    margin-top: 150px;
+    
+}
+footer .foot{
+    width: 80%;
+    height: auto;
+    justify-content: space-around;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+footer .foot .foottext{
+    color: rgba(255, 255, 255, 0.5);
+}
+footer .foot .foottext input{
+    font-size: 15px;
+    outline: none;
+    border: none;
+    padding: 10px 150px 10px 10px;
+}
+footer .foot .foottext button{
+    font-size: 18px;
+    color: white;
+    background-color: #7f97ff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 8px 20px;
+}
+footer .foot .foottext i{
+    font-size: 15px;
+    cursor: pointer;
+    padding: 2px 5px;
+
+}
+footer .foot .foottext i:hover{
+    color: #11f7ff;
+}
+
+/*footer end*/
